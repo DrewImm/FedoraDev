@@ -210,8 +210,11 @@ EOL
 dnf install -y arc-theme
 
 # Paper theme (icons etc)
-echo "Installing paper theme...";
-./paper.sh
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:snwh:paper/Fedora_25/home:snwh:paper.repo
+dnf install -y paper-icon-theme
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:snwh:paper/Fedora_25/home:snwh:paper.repo
+dnf install -y paper-gtk-theme
+dnf install -y gnome-tweak-tool
 
 ##
 # Cleanup
