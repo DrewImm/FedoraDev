@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.2] - 2017-11-30
+### Fixed
+- Fixed broken link to `paper.sh`
+
 ## [0.0.1] - 2017-11-30
 ### Added
 - Vim
