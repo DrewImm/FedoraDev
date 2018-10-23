@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.3] - 2018-10-23
+### Fixed
+- Added instructions to run as root
+
 ## [0.0.2] - 2017-11-30
 ### Fixed
 - Fixed broken link to `paper.sh`
