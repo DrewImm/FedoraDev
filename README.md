@@ -2,12 +2,16 @@
 A shell script to have a baller Fedora development environment
 
 ## Download
+
+Download the repo to a suitable download folder, e.g. `~/Downloads`
 ```shell
+cd ~/Downloads
 git clone https://github.com/DrewImm/FedoraDev.git
 ```
 
 ## Install
 ```shell
+su root
 cd FedoraDev && chmod 755 dev-install.sh
 ./dev-install.sh
 ```
