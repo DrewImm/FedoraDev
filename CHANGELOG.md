@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.4] - Jan-08-19
+### Fixed
+- [Issue #4] Update VS Code
+- [Issue #3] Remove docker
+
 ## [0.0.3] - 2018-10-23
 ### Fixed
 - Added instructions to run as root
