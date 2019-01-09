@@ -27,7 +27,6 @@ cd FedoraDev && chmod 755 dev-install.sh
 
 ### Code utilities
 - Doxygen
-- Docker
 - Sass
 
 ### Files

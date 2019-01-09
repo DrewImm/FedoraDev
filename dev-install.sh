@@ -38,15 +38,6 @@ dnf install -y npm
 echo "Installing Doxygen...";
 dnf install -y doxygen
 
-# Docker
-echo "Installing Docker";
-dnf remove docker docker-common docker-selinux docker-engine-selinux docker-engine
-dnf install -y dnf-plugins-core
-dnf config-manager --add-repo 'https://download.docker.com/linux/fedora/docker\
-    -ce.repo';
-dnf install -y docker-ce
-systemctl enable docker && systemctl start docker
-
 # Sass
 echo "Installing Dart-Sass";
 dnf install -y rubygem-sass
