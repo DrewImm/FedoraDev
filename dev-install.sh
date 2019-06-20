@@ -58,6 +58,9 @@ echo "Installing angular"
 npm i -g typescript @angular/cli
 npm i -g ng-tabber
 
+# Heroku CLI
+curl https://cli-assets.heroku.com/install.sh | sh
+
 # Google Chrome
 echo "Installing Google Chrome..."
 cat << EOF > /etc/yum.repos.d/google-chrome.repo
