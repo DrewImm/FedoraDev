@@ -8,6 +8,12 @@
 # development tools and utilities.
 
 ##
+# Compilers
+#
+echo "Installing gcc packages..."
+dnf install -y gcc-c++ make
+
+##
 # Editors
 #
 
@@ -41,6 +47,16 @@ dnf install filezilla -y
 ##
 # Web dev
 #
+
+# NodeJS
+echo "Installing NodeJS..."
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+dnf install nodejs -y
+
+# Angular
+echo "Installing angular"
+npm i -g typescript @angular/cli
+npm i -g ng-tabber
 
 # Google Chrome
 echo "Installing Google Chrome..."
