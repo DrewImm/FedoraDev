@@ -56,7 +56,6 @@ dnf install nodejs -y
 # Angular
 echo "Installing angular"
 npm i -g typescript @angular/cli
-npm i -g ng-tabber
 
 # Heroku CLI
 curl https://cli-assets.heroku.com/install.sh | sh
@@ -109,6 +108,8 @@ EOL
 ##
 # Cleanup
 #
+echo "NG Tabber..."
+npm i -g ng-tabber
 
 # Done
 echo "Done"
