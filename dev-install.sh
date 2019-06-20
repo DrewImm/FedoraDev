@@ -61,6 +61,11 @@ npm i -g ng-tabber
 # Heroku CLI
 curl https://cli-assets.heroku.com/install.sh | sh
 
+# Postgres
+yum install -y postgresql postgresql-server
+systemctl enable postgresql
+/usr/bin/postgresql-setup --initdb
+
 # Google Chrome
 echo "Installing Google Chrome..."
 cat << EOF > /etc/yum.repos.d/google-chrome.repo
